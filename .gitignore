@@ -1,0 +1,24 @@
+# --- Archivos de entrada del enunciado (no se republican) ---
+trustpilot-reviews-123k.csv
+Caso Práctico DL.pdf
+analisis_empresa - template.ipynb
+Analisis de reseñas (plantilla).pptx
+
+# --- Entorno virtual (vive fuera del proyecto pero por las dudas) ---
+.venv/
+__pycache__/
+*.pyc
+
+# --- Scripts de regeneración (uso interno) ---
+_build_notebook.py
+_build_pptx.py
+_run_notebook.py
+_run.log
+
+# --- Artefactos del análisis (privados, se regeneran desde el notebook) ---
+artifacts/
+*.parquet
+*.joblib
+
+# --- Jupyter ---
+.ipynb_checkpoints/
